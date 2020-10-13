@@ -1,9 +1,10 @@
 import { connect } from 'react-redux';
-import Home from '../components/Home';
+import Dashboard from '../components/Dashboard';
 
 const mapStateToProps = (state) => {
     return {
-        cars: state.cars
+        cars: state.cars,
+        user: state.user
     }
 }
 
